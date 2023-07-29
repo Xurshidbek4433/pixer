@@ -1,3 +1,8 @@
+img {
+  object-fit: cover;
+  display: flex;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -10,9 +15,14 @@ body {
   list-style: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 .hero {
   width: 100%;
   box-shadow: 0px 8px 6px #ccc5c5;
+  position: fixed;
 }
 
 .container {
@@ -83,20 +93,12 @@ body {
   align-items: center;
   justify-content: center;
   transition: all 0.3s;
-  
 }
 
 a.link-number:hover {
-  
   background: #ffffff;
   color: blue;
-  
-
 }
-
-/* .nav-link-number:hover {
-  background: none;
-} */
 
 .header {
   display: flex;
@@ -149,4 +151,227 @@ a.link-number:hover {
 }
 
 .header-items-right {
+}
+
+.servises {
+  margin-bottom: 5rem;
+}
+
+.servises__title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.servises__title-item {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.servises__title-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.servises__bottom {
+}
+.servis__bottom-items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.servis__bottom-sub {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-bottom: 5rem;
+}
+.servis__bottom-inner {
+  width: 320px;
+  padding: 24px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 1px 8px 5px 2px rgb(211, 209, 209);
+  transition: all 0.3s;
+}
+.servis__bottom-inner:hover {
+  box-shadow: 1px 2px 2px 2px rgb(211, 209, 209);
+}
+
+.servis__bottom-inner h3 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.servis__bottom-inner p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.servis-sub-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.servis-btn-item {
+  width: 16.5rem;
+  height: 4rem;
+  background-color: blue;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.servis-btn-item:hover {
+  background-color: rgb(71, 71, 247);
+}
+
+.servis-btn-item a {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.servis-btn-inner a {
+  border-bottom: 2px solid blue;
+  color: blue;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.servis-btn-inner a:hover {
+  border: none;
+}
+
+.work {
+}
+.container {
+}
+.work-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   
+
+}
+.work-title h2{
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.work-title p{
+  font-size: 1.6rem;
+  font-weight: 400;
+  width: 60%;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.work__bottom {
+
+}
+.work-inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.work_text h3{
+font-weight: 700;
+font-size: 2rem;
+}
+
+.work_text p{
+  font-weight: 400;
+  font-size: 1.6rem;
+
+}
+
+.work__btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.work__btn-item{
+  width: 16.5rem;
+  height: 4rem;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.work__btn-item a{
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.order {
+  background-color: blue;
+}
+
+.order__item {
+}
+
+.order__inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order__bottom {
+  display: flex;
+  flex-direction: column;
+width: 34rem;
+height: 30rem;
+background-color: #ffffff;
+padding: 2rem;
+
+
+}
+.input__ism {
+border: none;
+background-color: #F3F3F3;
+}
+.input__type{
+  display: flex;
+  align-items: center;
+  width: 30rem;
+  height: 5.5rem;
+  background-color: #F3F3F3;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+.input-bg{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+padding-right: 10px;
+}
+
+.work__btn {
+}
+.work__btn-item {
 }
